@@ -1,4 +1,4 @@
-/* base colors for heatmap */
+/* base colors for heatmap -> 1 - 6 , 1 being the most important */
 :root {
   --imp-1: #404040; 
   --imp-2: #595959; 
@@ -88,7 +88,7 @@ html {
 }
 
 .shutterstock {
-  background-color: var(--imp-5);
+  background-color: var(--imp-4);
   width: 15rem;
   height: 18rem;
   float: left;
@@ -109,7 +109,6 @@ html {
 
 .subscribe__article {
   margin-top: 10rem;
-
 }
 
 .preview {
@@ -132,7 +131,7 @@ html {
 .main__person {
   float: none;
   width: 100%;
-  background-color: var(--imp-6);
+  background-color: var(--imp-5);
   height: 20rem;
 }
 
@@ -140,6 +139,8 @@ html {
   height: 50rem;
   background-color: var(--imp-5);
 }
+
+/* footer */
 
 .footer {
   height: 60rem;
