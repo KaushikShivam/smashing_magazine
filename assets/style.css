@@ -74,7 +74,7 @@ html {
 }
 
 /* article secondary */
-.article__Secondary {
+.article__secondary {
   width: 33.3%;
   float: left;
   height: 30rem;
@@ -96,6 +96,7 @@ html {
   margin-top: 10rem;
 }
 
+
 .subscribe {
   border: 5px solid white;
   float: right;
@@ -104,4 +105,43 @@ html {
   height: 30rem;
   margin-right: 2rem;
   margin-top: 10rem;
+}
+
+.subscribe__article {
+  margin-top: 10rem;
+
+}
+
+.preview {
+  height: 40rem;
+}
+
+.container__people {
+  height: 60rem;
+  border: 5px solid white;
+}
+
+.person {
+  width: 50%;
+  float: left;
+  height: 20rem;
+  background-color: var(--imp-6);
+  border: 5px solid white;
+}
+
+.main__person {
+  float: none;
+  width: 100%;
+  background-color: var(--imp-6);
+  height: 20rem;
+}
+
+.content {
+  height: 50rem;
+  background-color: var(--imp-5);
+}
+
+.footer {
+  height: 60rem;
+  background-color: var(--imp-4);
 }
