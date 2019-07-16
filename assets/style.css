@@ -1,13 +1,107 @@
+/* base colors for heatmap */
 :root {
   --imp-1: #404040; 
   --imp-2: #595959; 
   --imp-3: #737373; 
   --imp-4: #A6A6A6; 
-  --imp-5: #bdbbbb;
+  --imp-5: #d6d6d6;
   --imp-6: #F2F2F2; 
 }
 
-/* #div1 {
-  background-color: var(--main-bg-color); 
-}  */
+/* base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit
+}
 
+html {
+  box-sizing: border-box
+}
+
+/* clearfix */
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+
+/* heatmap */
+
+/* navigation */
+.navigation {
+  height: 12rem;
+  background-color: var(--imp-4); 
+}
+
+/* article */
+.container {
+  position: relative;
+}
+
+.article {
+  float: left;
+  display: block;
+  width: 50%;
+  border: 5px solid white;
+  height: 40rem;
+}
+
+.article__left {
+  background-color: var(--imp-2);
+}
+
+.article__right {
+  background-color: var(--imp-3);
+}
+
+.title__focus {
+  position: absolute;
+  width: 20rem;
+  height: 8rem;
+  background-color: var(--imp-1);
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* membership */
+.membership {
+  height: 30rem;
+  background-color: var(--imp-4);
+  border: 5px solid white;
+}
+
+/* article secondary */
+.article__Secondary {
+  width: 33.3%;
+  float: left;
+  height: 30rem;
+  background-color: var(--imp-5);
+  border: 5px solid white;
+}
+
+/* subscribe */
+.login {
+  position: relative;
+}
+
+.shutterstock {
+  background-color: var(--imp-5);
+  width: 15rem;
+  height: 18rem;
+  float: left;
+  margin-left: 5rem;
+  margin-top: 10rem;
+}
+
+.subscribe {
+  border: 5px solid white;
+  float: right;
+  background-color: var(--imp-3);
+  width: 60rem;
+  height: 30rem;
+  margin-right: 2rem;
+  margin-top: 10rem;
+}
