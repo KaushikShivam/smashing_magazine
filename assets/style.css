@@ -105,6 +105,11 @@ body {
 
 
 .subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
   border: 5px solid white;
   float: right;
   background-color: var(--imp-3);
@@ -113,15 +118,34 @@ body {
   margin-right: 2rem;
   margin-top: 10rem;
   margin-bottom: 15rem;
+  padding: 5rem;
 }
+
 
 .subscribe__article {
   margin-top: 10rem;
+  height: 65rem;
+}
+
+.subscribe__article h3 {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.subscribe__article p {
+  margin-top: 4rem;
 }
 
 .preview {
-  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  height: 70rem;
 }
+
+
 
 .container__people {
   height: 60rem;
@@ -131,7 +155,7 @@ body {
 .person {
   width: 50%;
   float: left;
-  height: 20rem;
+  height: 30rem;
   background-color: var(--imp-6);
   border: 5px solid white;
 }
@@ -140,7 +164,18 @@ body {
   float: none;
   width: 100%;
   background-color: var(--imp-5);
-  height: 20rem;
+  height: 40rem;
+  padding-left: 40rem;
+}
+
+.main__person h4 {
+  font-size: 2.5rem;
+  margin: 4rem 0;
+}
+
+.main__person p {
+  line-height: 1.8;
+  width: 70%;
 }
 
 .content {
@@ -197,6 +232,23 @@ p {
   width: 80%;
   padding-top: 8rem;
   padding-left: 4rem;
+}
+
+.subscribe p{
+  width: 50%;
+  text-align: center;
+  align-self: center;
+  margin-top: 4rem;
+  line-height: 1.8;
+}
+
+.preview p{
+  width: 50%;
+  text-align: center;
+  align-self: center;
+  margin-top: 4rem;
+  line-height: 1.8;
+  padding-left: 0;
 }
 
 h3 {
