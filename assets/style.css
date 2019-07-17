@@ -191,9 +191,15 @@ a {
 /* footer */
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
   height: 60rem;
   background-color: var(--imp-4);
 }
+
 
 /* typography formatting */
 .navigation {
@@ -307,4 +313,15 @@ h3 {
   padding-left: 4rem;
   padding-bottom: 4rem;
   font-size: 3rem;
+}
+
+.footer h4 {
+margin-bottom: 2rem;
+font-size: 1.8rem;
+}
+
+.footer p {
+width: 80%;
+align-self: center;
+line-height: 2.2;
 }
