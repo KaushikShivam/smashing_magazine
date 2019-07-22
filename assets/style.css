@@ -66,10 +66,17 @@ a {
 
 .article {
   float: left;
-  display: block;
+  display: flex;
   width: 50%;
   border: 5px solid white;
-  height: 40rem;
+  height: 50rem;
+  flex-direction: column;
+}
+
+.article img {
+  width: 10rem;
+  height: 10rem;
+  margin: 14rem 5rem 2rem 5rem;
 }
 
 .article__left {
@@ -177,12 +184,19 @@ a {
   border: 5px solid white;
 }
 
+.person img {
+  float: left;
+  width: 10rem;
+  height: 10rem;
+  margin: 4rem 2rem 2rem 2rem;
+}
+
 .main__person {
   float: none;
   width: 100%;
   background-color: var(--imp-5);
   height: 40rem;
-  padding-left: 40rem;
+  padding-left: 20rem;
 }
 
 .main__person h4 {
@@ -192,7 +206,7 @@ a {
 
 .main__person p {
   line-height: 1.8;
-  width: 70%;
+  width: 80%;
 }
 
 .content {
@@ -208,8 +222,30 @@ a {
   justify-content: center;
   align-content: center;
   text-align: center;
-  height: 60rem;
+  height: 40rem;
   background-color: var(--imp-4);
+}
+
+.footer ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  margin: 5px;
+}
+
+.footer p {
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1;
 }
 
 
@@ -233,7 +269,7 @@ h2 {
 }
 
 .article h2 {
-  margin-top: 20%;
+  /* margin-top: 20%; */
   text-align: center;
 }
 
