@@ -47,6 +47,18 @@ a {
   background-color: var(--imp-4); 
 }
 
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 2rem;
+}
+
+.navigation li a {
+  color: white;
+  font-size: 3.5rem;
+}
+
 /* article */
 .container {
   position: relative;
