@@ -280,10 +280,14 @@ p {
   font-size: 2rem;
 }
 
-.membership p {
-  padding-left: 14rem;
+.membership article {
+  width: 100%;
+}
+
+.membership article p {
+  padding-left: 25%;
   margin-top: 8rem;
-  width: 50%; 
+  width: 80%; 
 }
 
 .shutterstock p {
@@ -340,19 +344,20 @@ h3 {
   clear: both;
 }
 
-.design h2 {
+.design article h2 {
   width: 80%;
-  padding-left: 14rem;
+  padding-left: 10%;
   padding-bottom: 0;
   margin-bottom: 0;
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 
 .design p {
+  padding-left: 10% !important;
   padding-top: 0;
   margin-top: 0;
   width: 80%;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 
@@ -372,4 +377,9 @@ font-size: 1.8rem;
 width: 80%;
 align-self: center;
 line-height: 2.2;
+}
+
+/* hide header */
+.header-hidder {
+  display: none;
 }
