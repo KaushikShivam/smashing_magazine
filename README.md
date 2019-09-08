@@ -1,4 +1,4 @@
-# [Design Teardown Project](https://raw.githack.com/KaushikShivam/the_next_web_clone/development/index.html) of [The Smashing Magazine](https://www.smashingmagazine.com/)
+# [Design Teardown Project](https://rawcdn.githack.com/KaushikShivam/smashing_magazine/c92981fe8f496b79836092b36f1ba27a225db6d0/index.html) of [The Smashing Magazine](https://www.smashingmagazine.com/)
 
 ![Design Teardown Project](screenshot.png)
 
@@ -8,12 +8,12 @@
 - [Contact](#contact)
 
 ## Description
-[Design Teardown Project](https://raw.githack.com/KaushikShivam/smashing_magazine/feature-hierarchy/index.html) is built to understand visual hierarchies with the heatmap.
+[Design Teardown Project](https://rawcdn.githack.com/KaushikShivam/smashing_magazine/c92981fe8f496b79836092b36f1ba27a225db6d0/index.html) is built to understand visual hierarchies with the heatmap.
 In this simple project, we broke apart the website for a popular design magazine.
 The goal for this exercise was to train ourselves to think in terms of visual hierarchy, typography and design principles.
 
 We created a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy. 
-[Reference link](Design Teardown Project)
+[Reference link](https://www.smashingmagazine.com/)
 
 
 ## Installation
